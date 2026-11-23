@@ -12,21 +12,21 @@
 # =====================================================
 
 profile:
-  name: "[Your Name]"
-  headline: "Student @ [Your University]"
-  email: "your-email@gmail.com"
-  location: null
-  profileImage: "https://github.com/pm25.png"
+  name: "Garth Kong"
+  headline: "Computation Biologist"
+  email: ""
+  location: "Seattle, WA"
+  profileImage: "/images/Kong_Garth_630-0631-Edit-Sammamish-Ludeman Photographic_1x1-Retouched.jpg"
 
   links:
     - name: "LinkedIn"
-      url: "https://www.linkedin.com/in/[your-linkedin]"
+      url: "https://www.linkedin.com/in/garth-kong/"
       icon:
         name: "FaLinkedin"
         package: "react-icons/fa6"
 
     - name: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=[your-id]"
+      url: "https://scholar.google.com/citations?user=s1YwlKgAAAAJ&hl=en"
       icon:
         name: "FaGoogleScholar"
         package: "react-icons/fa6"
@@ -38,15 +38,9 @@ profile:
         package: "react-icons/fa6"
 
     - name: "Github"
-      url: "https://github.com/[your-github]"
+      url: "https://github.com/gartician"
       icon:
         name: "FaGithub"
-        package: "react-icons/fa6"
-
-    - name: "Facebook"
-      url: "https://www.facebook.com/[your-facebook]"
-      icon:
-        name: "FaSquareFacebook"
         package: "react-icons/fa6"
 
   # you can use HTML syntax here (e.g. <br/>, <a>, <strong>, ...)
@@ -61,40 +55,35 @@ profile:
 # # =====================================================
 
 education:
-  - degree: "Ph.D. in [Field]"
-    school: "[University Name]"
-    years: "20XX - Present"
-    logo: "https://upload.wikimedia.org/wikipedia/en/a/a1/Arizona_State_University_seal.svg"
+  - degree: "M.S. in Bioinformatics and Genomics"
+    school: "University of Oregon"
+    years: "2018 - 2019"
+    logo: "/logos/uo.webp"
 
-  - degree: "M.S. in Computer Science"
-    school: "National Taiwan University"
-    years: "2020 - 2022"
-    logo: "/images/ntu_logo.svg"
-
-  - degree: "B.S. in Computer Science"
-    school: "National Chengchi University"
-    years: "2018 - 2020"
-    logo: "/images/nccu_logo.svg"
+  - degree: "B.S. in Biochemistry and Biophysics"
+    school: "Oregon State University"
+    years: "2013 - 2018"
+    logo: "/logos/osu.jpg"
 
 # # =====================================================
 # # 💼 Work Experience Section
 # # =====================================================
 
 workExperience:
-  - title: "[Job Title]"
-    company: "[Company Name]"
-    years: "20XX - Present"
-    logo: "/images/nvidia_logo.webp"
+  - title: "Bioinformatics Analyst II (Tooling & Software Focus)"
+    company: "Allen Institute - Immunology Accelerator"
+    years: "2025 - Present"
+    logo: "/logos/AI_lens_maroon.svg"
 
-  - title: "Software Engineering Intern"
-    company: "Google"
-    years: "Jul 2022 - Sep 2022"
-    logo: "/images/google_logo.svg"
+  - title: "Computational Biologist"
+    company: "Oregon Health & Science University"
+    years: "2020 - 2024"
+    logo: "/logos/ohsu.png"
 
-  - title: "Research Assistant"
-    company: "University of Illinois Urbana-Champaign"
-    years: "Jul 2019 - Sep 2019"
-    logo: "/images/uiuc_logo.png"
+  - title: "Graduate Student Intern - Genomics Core"
+    company: "Stowers Institute for Medical Research"
+    years: "2019 - 2020"
+    logo: "/logos/simr.png"
 
 # # =====================================================
 # # 🎤 Presentations / Talks Section
@@ -161,22 +150,33 @@ services:
 
 skills:
   Programming:
-    - name: "[Name]"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
-      proficiency: "[Proficiency]"
-      description: "[Description]"
-
     - name: "Python"
       logo: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
       proficiency: Experienced
       description: null
 
+    - name: "R"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+      proficiency: Experienced
+      description: null
+
+  Bioinformatics:
+    - name: "SnakeMake"
+      logo: "/logos/snakemake.png"
+      proficiency: Experienced
+      description: null
+
+    - name: "Anaconda"
+      logo: "/logos/anaconda.png"
+      proficiency: Experienced
+      description: null
+
+  Data Visualization:
     - name: "JavaScript"
       logo: "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
       proficiency: Fluent
       description: null
 
-  Web:
     - name: "React"
       logo: "https://upload.wikimedia.org/wikipedia/commons/3/30/React_Logo_SVG.svg"
       proficiency: Advanced
@@ -187,50 +187,20 @@ skills:
       proficiency: Fluent
       description: null
 
-    - name: "TailwindCSS"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+  LLMs:
+    - name: "Claude"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
       proficiency: Fluent
       description: null
 
-    - name: "Next.js"
-      logo: "https://logo.svgcdn.com/devicon/nextjs-original.png"
-      proficiency: Fluent
+  Tooling:
+    - name: "uv"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/7/76/Uv_Package_Manager_Lettermark.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+      proficiency: 2025 - Present
       description: null
-
-  Machine Learning:
-    - name: "PyTorch"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg"
-      proficiency: Experienced
-      description: null
-
-    - name: "TensorFlow"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg"
-      proficiency: Fluent
-      description: null
-
-    - name: "Keras"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg"
-      proficiency: Fluent
-      description: null
-
-  Research:
-    - name: "Machine Learning"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-      proficiency: 2020 - Current
-      description: "General machine learning methods and applied research."
-
-    - name: "Representation Learning"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-      proficiency: 2024 - 2025
-      description: "Learning meaningful embeddings and feature representations from data."
 
   Language:
     - name: "English"
       logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
       proficiency: Fluent
       description: "Professional working proficiency."
-
-    - name: "Taiwanese Hokkien"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
-      proficiency: Native
-      description: "Native fluency."
