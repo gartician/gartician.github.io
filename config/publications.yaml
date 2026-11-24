@@ -18,33 +18,82 @@
 # =====================================================
 
 publications:
-  authorName: "Pin-Yen Huang" # Your name here (to highlight your name in publications)
+  authorName: "G. L. Kong"
 
   items:
-    - title: "[Publication Title]"
-      authors: "[Author Names]"
-      year: "[Year]"
-      venue: "[Conference / Journal Name]"
-      link: "https://example.com/your-publication-link"
+    - title: "Multiple myeloma and therapy reshape the bone marrow niche to durably constrain immune reconstitution and vaccine responsiveness"
+      authors: "A. Chander, S. R. Zaim, M. A. Dillon, P. C. Genge, N. Moss, P. I. McGrath, M. S. Kopp, K. J. Lee, E. L. Kuan, J. Reading, et al."
+      year: 2026
+      venue: "Cell Press Blue, 100087"
+      link: "https://doi.org/10.1016/j.cpblue.2026.100087"
       featured: true
 
-    - title: "RankUp: Boosting Semi-Supervised Regression with an Auxiliary Ranking Classifier"
-      authors: "Pin-Yen Huang, Szu-Wei Fu, Yu Tsao"
+    - title: "CITEViz: interactively classify cell populations in CITE-Seq via a flow cytometry-like gating workflow using R-Shiny"
+      authors: "G. L. Kong, T. T. Nguyen, W. K. Rosales, A. D. Panikar, J. H. Cheney, T. A. Lusardi, W. M. Yashar, B. M. Curtiss, S. A. Carratt, T. P. Braun, et al."
       year: 2024
-      venue: "38th Conference on Neural Information Processing Systems (NeurIPS 2024)"
-      link: "https://arxiv.org/abs/2410.22124"
+      venue: "BMC Bioinformatics 25, 142"
+      link: "https://link.springer.com/article/10.1186/s12859-024-05762-1"
       featured: true
 
-    - title: "An Enhanced Mondrian Anonymization Model based on Self-Organizing Map"
-      authors: "Peter Shaojui Wang, Pin-Yen Huang, Yu-An Tsai, Raylin Tso"
-      year: 2020
-      venue: "15th Asia Joint Conference on Information Security (AsiaJCIS 2020)"
-      link: "https://ieeexplore.ieee.org/abstract/document/9194139"
+    - title: "A framework for considering prior information in network-based approaches to omics data analysis"
+      authors: "J. Somers, M. Fenner, G. L. Kong, D. Thirumalaisamy, W. M. Yashar, K. Thapa, M. Kinali, O. Nikolova, Ö. Babur, E. Demir"
+      year: 2023
+      venue: "Proteomics 23, 2200402"
+      link: "https://doi.org/10.1002/pmic.202200402"
+      featured: false
+
+    - title: "RUNX1::ETO translocations must precede CSF3R mutations to promote acute myeloid leukemia development"
+      authors: "S. A. Carratt, G. L. Kong, C. Coblentz, Z. Schonrock, L. Maloney, B. Weeder, W. Yashar, R. Callahan, H. Blaylock, C. Coleman, et al."
+      year: 2023
+      venue: "Leukemia 37, 1141-1146"
+      link: "https://www.nature.com/articles/s41375-023-01862-8"
       featured: true
 
-    - title: "[Publication Title]"
-      authors: "[Author Names]"
-      year: "[Year]"
-      venue: "[Conference / Journal Name]"
-      link: "https://example.com/your-publication-link"
+    - title: "Cell-type-specific responses to the microbiota across all tissues of the larval zebrafish"
+      authors: "M. S. Massaquoi, G. L. Kong, D. Chilin-Fuentes, J. S. Ngo, P. F. Horve, E. Melancon, M. K. Hamilton, J. S. Eisen, K. Guillemin"
+      year: 2023
+      venue: "Cell Reports 42"
+      link: "https://doi.org/10.1016/j.celrep.2023.112095"
+      featured: true
+
+    - title: "Disruption of the MYC Superenhancer Complex by Dual Targeting of FLT3 and LSD1 in Acute Myeloid Leukemia"
+      authors: "W. M. Yashar, B. M. Curtiss, D. J. Coleman, J. VanCampen, G. L. Kong, M. Macaraeg, J. Estabrook, E. Demir, N. Long, D. Bottomly, et al."
+      year: 2023
+      venue: "Molecular Cancer Research 21(7), 631-647"
+      link: "https://doi.org/10.1158/1541-7786.MCR-22-0745"
+      featured: false
+
+    - title: "Dual targeting of FLT3 and LSD1 disrupts the MYC super-enhancer complex in acute myeloid leukemia"
+      authors: "W. Yashar, B. M. Smith, D. J. Coleman, J. VanCampen, G. L. Kong, M. Macaraeg, J. Estabrook, E. Demir, N. Long, D. Bottomly, et al."
+      year: 2022
+      venue: "bioRxiv"
+      link: "https://www.biorxiv.org/content/10.1101/2022.01.17.476469v2"
+      featured: true
+
+    - title: "GoPeaks: histone modification peak calling for CUT&Tag"
+      authors: "W. M. Yashar, G. L. Kong*, J. VanCampen, B. M. Curtiss, D. J. Coleman, L. Carbone, G. G. Yardimci, J. E. Maxson, T. P. Braun"
+      year: 2022
+      venue: "Genome Biology 23, 144"
+      link: "https://link.springer.com/article/10.1186/s13059-022-02707-w"
+      featured: true
+
+    - title: "Mutated SETBP1 activates transcription of Myc programs to accelerate CSF3R-driven myeloproliferative neoplasms"
+      authors: "S. A. Carratt, G. L. Kong, B. M. Curtiss, Z. Schonrock, L. Maloney, B. N. Maniaci, H. Z. Blaylock, A. Baris, B. J. Druker, T. P. Braun, et al."
+      year: 2022
+      venue: "Blood 140, 644-658"
+      link: "https://www.sciencedirect.com/science/article/pii/S0006497122005845"
+      featured: true
+
+    - title: "PU.1 and MYC transcriptional network defines synergistic drug responses to KIT and LSD1 inhibition in acute myeloid leukemia"
+      authors: "B. M. Curtiss, J. VanCampen, J. Macaraeg, G. L. Kong, A. Taherinasab, M. Tsuchiya, W. M. Yashar, Y. H. Tsang, W. Horton, D. J. Coleman, et al."
+      year: 2022
+      venue: "Leukemia 36, 1781-1793"
+      link: "https://www.nature.com/articles/s41375-022-01594-1"
+      featured: true
+
+    - title: "Chronic cerebral lipocalin 2 exposure elicits hippocampal neuronal dysfunction and cognitive impairment"
+      authors: "B. Olson, X. Zhu, M. A. Norgard, P. Diba, P. R. Levasseur, A. C. Buenafe, C. Huisman, K. G. Burfeind, K. A. Michaelis, G. L. Kong, et al."
+      year: 2021
+      venue: "Brain, Behavior, and Immunity 97, 102-118"
+      link: "https://www.sciencedirect.com/science/article/pii/S088915912100266X"
       featured: false
