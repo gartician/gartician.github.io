@@ -1,13 +1,39 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script>
+      // Enter your Google Analytics 4 measurement ID here, e.g. G-XXXXXXXXXX.
+      const googleAnalyticsMeasurementId = "G-G0ZN4XBKB5";
+
+      if (googleAnalyticsMeasurementId) {
+        if (!/^G-[A-Z0-9]+$/.test(googleAnalyticsMeasurementId)) {
+          console.error("Invalid Google Analytics measurement ID.");
+        } else {
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function () {
+            window.dataLayer.push(arguments);
+          };
+          window.gtag("js", new Date());
+          window.gtag("config", googleAnalyticsMeasurementId, {
+            send_page_view: false,
+          });
+
+          const script = document.createElement("script");
+          script.async = true;
+          script.src =
+            "https://www.googletagmanager.com/gtag/js?id=" +
+            encodeURIComponent(googleAnalyticsMeasurementId);
+          document.head.appendChild(script);
+        }
+      }
+    </script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/logos/anime_me.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Showlit</title>
-    <script type="module" crossorigin src="/assets/index-CPJHz2Ig.js"></script>
+    <script type="module" crossorigin src="/assets/index-BKmSOXoF.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-ByJeeom4.css">
   </head>
   <body>
