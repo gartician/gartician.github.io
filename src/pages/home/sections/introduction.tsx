@@ -36,7 +36,7 @@ export function Banner() {
   const shadowClass = SHADOW_CLASSES[banner.shadow ?? "md"] ?? SHADOW_CLASSES.md;
 
   return (
-    <section className={`self-stretch -mt-1 overflow-hidden rounded-2xl ${shadowClass} -mb-8`}>
+    <section className={`self-stretch -mt-4 overflow-hidden rounded-2xl ${shadowClass} -mb-8`}>
       <img
         src={banner.link}
         alt="Banner"

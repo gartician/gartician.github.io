@@ -16,7 +16,7 @@ export default function Layout() {
       <SidebarInset className="min-h-screen">
         <SidebarTrigger className="fixed left-3 top-3 md:hidden z-5" />
 
-        <div className="px-6 sm:px-3 grow">
+        <div className="px-6 sm:px-3 grow py-4">
           <Outlet />
         </div>
 
