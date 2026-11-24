@@ -4,7 +4,7 @@
 # =====================================================
 
 site:
-  name: "personal-website"
-  repoUrl: "https://github.com/gartician/personal-website"
+  name: ""
+  repoUrl: "https://github.com/gartician/gartician.github.io"
   description: "Personal website"
   author: "Garth Kong"
