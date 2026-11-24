@@ -176,6 +176,20 @@ Other configurable files include:
 - Giscus Comments: [config/giscus.yaml](config/giscus.yaml)
 - Publications: [config/publications.yaml](config/publications.yaml)
 
+### Google Analytics
+
+To enable Google Analytics 4, create a web data stream and enter its measurement
+ID (such as `G-XXXXXXXXXX`) in `googleAnalyticsMeasurementId` in
+[index.html](index.html). Leave it empty to disable analytics. Rebuild and deploy
+the site after changing it. The ID is public in the deployed site.
+
+The site sends page views for its hash-based routes, including the initial
+page. In your GA4 web stream's **Enhanced measurement** settings, disable
+**Page views > Show advanced settings > Page changes based on browser history
+events** to prevent duplicate page views. Visits during local development are
+also recorded when the ID is set. Consider applicable consent and privacy
+requirements before enabling analytics.
+
 ### 📝 Add Articles
 
 To add a article, create a folder and Markdown file inside [public/articles](public/articles) following this structure:
