@@ -49,10 +49,11 @@ profile:
 
   # you can use HTML syntax here (e.g. <br/>, <a>, <strong>, ...)
   biography: |
-    Hi! I'm <strong>[Your Name]</strong>, a <em>[Your Title]</em> passionate about <em>[field or topic]</em>. Currently, I work as <em>[current role]</em> at <em>[organization]</em>, where I <em>[briefly describe your work or mission]</em>. 
-    With a background in <em>[academic or professional background]</em>, I've developed strong interests in <em>[key interests or specialties]</em> and have contributed to projects like <i>[example project]</i> and <i>[another example]</i>, all focused on <em>[broader goal or impact]</em>.
+    Hi I'm <strong>Garth Kong</strong>!
+    With a background in Biochemistry and bioinformatics, I've developed strong interests to learn how human genetics and gene regulation affect disease initation, progression, and evolution.
+    I currently work as a <em>Bioinformatics Analyst II</em> with a tooling and software focus at the <em>Allen Institute Immunology Accelerator</em>, where I build and implement data visualization tools in the Data Apps Team.
     <div class="my-2"></div>
-    Outside of work, I enjoy <em>[hobbies or personal interests]</em>, which inspire creativity and keep me energized. Thanks for visiting! Feel free to <a href="mailto:[your-email@example.com]" target="_blank" rel="noopener noreferrer">reach out</a> to connect.
+    Outside of work, I enjoy <em>hiking, taking photographs, and exploring the world</em>. Feel free to <a href="mailto:[kongga2017@gmail.com]" target="_blank" rel="noopener noreferrer">reach out</a> to connect and talk about science.
 
 # # =====================================================
 # # 🎓 Education Section

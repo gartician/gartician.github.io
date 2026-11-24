@@ -22,7 +22,7 @@ homepage:
 
     - name: Projects
       variant: default
-      enabled: true
+      enabled: false
 
     - name: Skills
       variant: default
