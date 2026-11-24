@@ -19,7 +19,7 @@ export default function App() {
   useGlobalMeta();
 
   return (
-    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+    <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
       <Router>
         <ScrollToTop />
         <Routes>
