@@ -5,6 +5,7 @@ import { loadLazy } from "@/lib/loadComponent";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ScrollToTop } from "@/hooks/scroll-to-top";
 import { useGlobalMeta } from "./hooks/use-global-meta";
+import { GoogleAnalyticsPageViews } from "./components/google-analytics-page-views";
 
 const HomePage = loadLazy(() => import("@/pages/home"));
 const MoviesPage = loadLazy(() => import("@/pages/movies"));
@@ -21,6 +22,7 @@ export default function App() {
   return (
     <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
       <Router>
+        <GoogleAnalyticsPageViews />
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Layout />}>
