@@ -18,6 +18,10 @@ profile:
   location: "Seattle, WA"
   profileImage: "/images/Kong_Garth_630-0631-Edit-Sammamish-Ludeman Photographic_1x1-Retouched.jpg"
 
+  bannerPicture:
+    link: "/images/000033670018.jpg"
+    shadow: xl
+
   links:
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/garth-kong/"

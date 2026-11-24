@@ -10,12 +10,41 @@ import {
 
 import { profile } from "@/data/profile";
 
+// Static class names so Tailwind can detect them at build time.
+const SHADOW_CLASSES: Record<string, string> = {
+  none: "shadow-none",
+  sm: "shadow-sm",
+  md: "shadow-md",
+  lg: "shadow-lg",
+  xl: "shadow-xl",
+  "2xl": "shadow-2xl",
+};
+
 export default function IntroductionSection() {
   return (
     <div className="flex flex-col sm:flex-row items-center justify-center gap-8 md:gap-12 lg:gap-16">
       <ProfileCard />
       <Biography />
     </div>
+  );
+}
+
+export function Banner() {
+  const banner = (profile as { bannerPicture?: { link?: string; shadow?: string } })
+    .bannerPicture;
+  if (!banner?.link) return null;
+  const shadowClass = SHADOW_CLASSES[banner.shadow ?? "md"] ?? SHADOW_CLASSES.md;
+
+  return (
+    <section className={`self-stretch -mt-1 overflow-hidden rounded-2xl ${shadowClass} -mb-8`}>
+      <img
+        src={banner.link}
+        alt="Banner"
+        className="w-full h-40 sm:h-56 md:h-64 object-cover"
+        loading="lazy"
+        style={{width: "100%"}}
+      />
+    </section>
   );
 }
 
